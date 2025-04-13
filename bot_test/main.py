@@ -8,6 +8,7 @@ from handlers.feedback import fd_router
 from handlers.student import student_router
 from handlers.applicant import app_router
 
+
 load_dotenv(find_dotenv())
 
 bot = Bot(token=os.getenv('TOKEN'))
